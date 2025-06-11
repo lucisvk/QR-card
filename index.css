@@ -1,0 +1,55 @@
+.inner-box { 
+  width: 150px;
+  height: 290px; 
+  padding: 50px;
+  border: 15px solid rgb(255, 255, 255);
+  border-radius: 7%;
+  background-color: white;
+  margin: 160px auto; 
+  position: relative; 
+}
+
+.inner-box > p { 
+    position: relative;
+    top: 70%;
+    font-size: 9px;
+    color: rgb(171, 174, 176);
+    align-items: ;
+}
+
+
+.inner-box > .intro {
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.qr-box { 
+  width: 260px;
+  height: 240px;
+  background-color: blue;
+  border-radius: 4%;
+  position: absolute; 
+  top: -5px; 
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+.qr-box > .qrcode img { 
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 16%;
+    top: 12%;
+}
+
+body { 
+    background-color: hsl(212, 45%, 89%)
+}
